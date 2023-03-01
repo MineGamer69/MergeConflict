@@ -4,13 +4,13 @@ public class DmvSimulator{
         boolean x = true;
         System.out.println("Welcome to CT DMV! We will provide you with a random queue number now! :");
         Random rand = new Random();
-        int queueNo = rand.nextInt(100);
+        int queueNo = rand.nextInt(200);
         int userQ = queueNo;
         System.out.println("Your queue no is: " + userQ + ". Please wait until your Queue number is called out!");
         int queueStart = queueNo + 1;
         while(x){
             System.out.println("Current Queue number: " + queueStart ++);
-            if (queueStart > 100){
+            if (queueStart > 200){
                 queueStart = 1;
             }
             if (queueStart == userQ){
