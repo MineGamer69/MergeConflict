@@ -24,9 +24,7 @@ public class DmvSimulator{
             }
 
         }
-        System.out.println("You dont have the required paperwork!");
-
-
+        System.out.println("PLEASE LEAVE, YOU DO NOT HAVE THE REQUIRED PAPERWORK!");
     }
 
 }
