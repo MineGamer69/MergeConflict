@@ -25,7 +25,14 @@ public class DmvSimulator{
             }
 
         }
-        System.out.println("PLEASE LEAVE, YOU DO NOT HAVE THE REQUIRED PAPERWORK! MAUWAHAHAHAAHHAAHHA");
+        int num = rand.nextInt(100);
+        if(num <= 98){
+            System.out.println("PLEASE LEAVE, YOU DO NOT HAVE THE REQUIRED PAPERWORK! MAUWAHAHAHAAHHAAHHA");
+        }
+        else{
+            System.out.println("I cant believe it! You have the required paperwork!!!!");
+        }
+        
     }
 
 }
