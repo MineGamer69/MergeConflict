@@ -25,7 +25,7 @@ public class DmvSimulator{
             }
 
         }
-        System.out.println("PLEASE LEAVE, YOU DO NOT HAVE THE REQUIRED PAPERWORK!");
+        System.out.println("PLEASE LEAVE, YOU DO NOT HAVE THE REQUIRED PAPERWORK! MAUWAHAHAHAAHHAAHHA");
     }
 
 }
